@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">L09-NotQuiteBinaryFiles</string>
+    <string name="title_process">Process</string>
+    <string name="title_converter">Converter</string>
+    <string name="title_history">History</string>
+    <string name="convert">Convert</string>
+    <string name="preference_file_key">au.edu.swin.sdmd.preferences</string>
+    <string name="last_input">last_input</string>
+</resources>

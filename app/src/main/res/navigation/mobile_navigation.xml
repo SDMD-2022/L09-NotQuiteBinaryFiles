@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="au.edu.swin.sdmd.l09_notquitebinaryfiles.ui.process.ProcessFragment"
+        android:label="@string/title_process"
+        tools:layout="@layout/fragment_process" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="au.edu.swin.sdmd.l09_notquitebinaryfiles.ui.converter.ConverterFragment"
+        android:label="@string/title_converter"
+        tools:layout="@layout/fragment_converter" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="au.edu.swin.sdmd.l09_notquitebinaryfiles.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+</navigation>

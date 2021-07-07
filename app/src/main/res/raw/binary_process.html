@@ -1,0 +1,18 @@
+<h1>Converting from decimal to binary</h1>
+<p>The process for converting from decimal to binary can be done in several ways.
+
+<p>One algorithm is to repeatedly divide the binary value by 2 until zero is reached,
+        keeping track of the remainder each time.
+
+<p>For example, converting 43 to binary leads to:
+    <ul><li>43 / 2 = 21 remainder 1</li>
+    <li>21 / 2 = 10 remainder 1</li>
+<li>10 / 2 = 5 remainder 0</li>
+<li>5 / 2 = 2 remainder 1</li>
+<li>2 / 2 = 1 remainder 0</li>
+<li>1 / 2 = 0 remainder 1</li>
+</ul>
+
+<p>So reading from the bottom up, 43 in binary is 101011. We can check this by converting back,
+    recalling that we start numbering positions at 0 from right to left: 2<sup>0</sup> + 2<sup>1</sup> +
+    2<sup>3</sup> + 2<sup>5</sup> = 1 + 2 + 8 + 32 = 43.
